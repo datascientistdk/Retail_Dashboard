@@ -18,7 +18,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding="ISO-8859-1")
 else:
-    os.chdir("C:\\Users\\dkpra\\OneDrive\\ML_Projects\\Dashboard")
+    # os.chdir("C:/Users/dkpra/OneDrive/ML_Projects/Dashboard")
     df = pd.read_csv("Superstore.csv", encoding="ISO-8859-1")
 
 col1, col2 = st.columns((2))
